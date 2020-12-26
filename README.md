@@ -1,4 +1,4 @@
-# designer_portfolio
+# Designer Portfolio
 
 ## description:
 
