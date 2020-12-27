@@ -22,31 +22,21 @@ html{
 
 section{
   margin: 0 auto;
-  width: 100vw;
   height: 100vh;
-  padding-top: 100px;
+  padding: 20% 5% 10% 5%;
+  border-bottom: 1px solid white;
 }
 
 #home{
-  background: red;
-}
-
-#about{
-  background: blue;
-}
-
-#portfolio{
-  background: orange;
-}
-
-#contact{
-  background: purple
+  background: gray;
+  width: 100vw;
+  height: 100vh;
 }
 
 @media (min-width: 1024px){
   
   section {
    max-width: 1200px;
-   color: white;
+   padding: 100px 0 0 0;
   }
 }
