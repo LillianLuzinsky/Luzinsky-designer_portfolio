@@ -23,19 +23,18 @@ html{
 section{
   margin: 0 auto;
   height: 100vh;
-  padding: 20% 5% 10% 5%;
   border-bottom: 1px solid white;
+  padding: 15% 5%;
 }
 
 #home{
   background: gray;
-  width: 100vw;
   height: 100vh;
+  
 }
 
 #about, #portfolio, #contact {
   background: #111111;
-  width: 100vw;
   height: 100vh;
 }
 
@@ -43,6 +42,6 @@ section{
   
   section {
    max-width: 1200px;
-   padding: 100px 0 0 0;
+   padding: 100px 15px;
   }
 }

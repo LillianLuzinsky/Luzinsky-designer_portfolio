@@ -162,6 +162,6 @@ media queries
 
 @media (min-width: 1024px){
     .tab-container{
-        max-width: 1300px;
+        max-width: 1200px;
     }
 }
