@@ -63,19 +63,22 @@
     justify-content: space-between;
     align-items: center;
     background: #858585;
-    border: 1px solid #858585;
     box-shadow: 5px 5px 10px #000000;
     height: 40px;
     border-radius: 100px;
     color: white;
   }
 
+  .contact-button:hover{
+    background: #555555;
+    transition: background 500ms linear;
+  }
+
   .contact-button i{
-      font-size: 38px;
+      font-size: 40px;
   }
 
   .contact-button p{
       font-size: 1.5rem;
-      padding-left: 20px;
-      
+      margin: 0 auto;
   }
