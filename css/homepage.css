@@ -120,6 +120,7 @@ media queries
     bottom: 150px;
     height: 6.25rem;
     width: 6.25rem;
+    mix-blend-mode: multiply;
   }
 
   .contact-button{
@@ -139,35 +140,11 @@ media queries
       background-color: white;
   }
 
-  .small-circle{
-    height: 4.75rem;
-    width: 4.75rem;
-    margin-left: 110px;
-  }
-  
-  .pink-circle{
-    height: 9.5rem;
-    width: 9.5rem;
-    margin-top: -45px;
-  }
-
-  header h1{
-    font-size: 6.5rem;
-  }
-
   .sub-heading{
     max-width: 45%;
     margin-bottom: 4.5rem;
   }
 
-  .home-cross{
-    position: absolute;
-    bottom: 50px;
-    height: 6.25rem;
-    width: 6.25rem;
-    right: 10%;
-    bottom: 10%;
-  }
 }
 
 
