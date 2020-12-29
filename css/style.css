@@ -20,23 +20,6 @@ html{
   scroll-behavior: smooth;
 }
 
-section{
-  margin: 0 auto;
-  height: 100vh;
-  border-bottom: 1px solid white;
-  padding: 15% 5%;
-}
-
-#home{
-  background: gray;
-  height: 100vh;
-  
-}
-
-#about, #portfolio, #contact {
-  background: #111111;
-  height: 100vh;
-}
 
 @media (min-width: 1024px){
   
