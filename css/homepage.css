@@ -1,4 +1,49 @@
 #home{
-    background: red;
     height: 100vh;
+    background: url("/images/Homepage.jpg") center no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+  }
+  
+  .hi{
+    margin-top: 25px;  
+  }
+  
+  .small-circle{
+    background: turquoise;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+    margin-left: 30px;
+  }
+
+  .pink-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F037A5;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    letter-spacing: 2px;
+    margin-top: -15px;
+  }
+
+  .pink-circle h1{
+    color: white;
+  }
+
+  header h1{
+    font-size: 2.19rem;
+    color: #F037A5;
+  }
+
+  .sub-heading{
+    margin: 2rem 0;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    max-width: 60%;
   }
