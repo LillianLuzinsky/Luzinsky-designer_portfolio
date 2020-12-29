@@ -1,8 +1,9 @@
 #home .container{
-    height: 100vh;
+    height: auto;
     background: url("/images/Homepage.jpg") center no-repeat;
     background-size: cover;
     background-position-x: 50%;
+    position: relative;
   }
 
   .hi{
@@ -45,7 +46,7 @@
     line-height: 1.5rem;
     font-family: 'Open Sans', sans-serif;
     color: black;
-    max-width: 60%;
+    max-width: 50%;
   }
 
   .home-cross{
@@ -88,7 +89,17 @@
 media queries
 *************/
 
+@media (max-width: 360px){
+  
+  #home .container{
+    height: 100vh;
+}
+
 @media (min-width: 760px){
+
+  #home .container{
+    height: 100vh;
+  }
 
   .hi{
     margin-top: 75px;
