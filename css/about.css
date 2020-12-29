@@ -1,3 +1,50 @@
 #about{
-    height: 100vh;
+    height: auto;
+    border-bottom: 1px solid white;
+}
+
+.about-title{
+    padding-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.about-circle{
+    margin-left: 20px;
+    height: 2rem;
+    width: 2rem;
+    background: none;
+    border: 1px solid #F037A5;
+    border-radius: 50%;
+}
+
+.about-text{
+    padding-bottom: 1.5rem;
+}
+
+.about-cross{
+    fill: turquoise;
+    height: 2rem;
+    width: 2rem;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 5%;
+}
+
+/**********
+media queries
+**************/
+
+@media (min-width: 760px){
+
+    .about-circle{
+      height: 3.75rem;
+      width: 3.75rem;
+      margin-left: 35px;
+    }
+
+    .about-cross{
+        height: 3.75rem;
+        width: 3.75rem;
+    }
 }
