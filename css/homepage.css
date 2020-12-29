@@ -138,6 +138,7 @@ media queries
       align-items: center;
       justify-content: center;
       background-color: white;
+      padding-left: 0;
   }
 
   .sub-heading{
