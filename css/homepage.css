@@ -1,4 +1,4 @@
-#home{
+#home .container{
     height: 100vh;
     background: url("/images/Homepage.jpg") center no-repeat;
     background-size: cover;
@@ -75,10 +75,88 @@
   }
 
   .contact-button i{
-      font-size: 40px;
+      font-size: 36px;
+      margin-right: 3px;
   }
 
   .contact-button p{
       font-size: 1.5rem;
       margin: 0 auto;
   }
+
+/*************
+media queries
+*************/
+
+@media (min-width: 760px){
+
+  .hi{
+    margin-top: 75px;
+  }
+
+  .small-circle{
+    height: 3.75rem;
+    width: 3.75rem;
+    margin-left: 70px;
+  }
+  
+  .pink-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F037A5;
+    height: 7.5rem;
+    width: 7.5rem;
+    border-radius: 50%;
+    letter-spacing: 2px;
+    margin-top: -30px;
+  }
+
+  header h1{
+    font-size: 4.7rem;
+    color: #F037A5;
+  }
+
+  .sub-heading{
+    margin: 2rem 0;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    max-width: 60%;
+  }
+
+  .home-cross{
+    position: absolute;
+    bottom: 150px;
+    height: 6.25rem;
+    width: 6.25rem;
+  }
+
+  .contact-button{
+    position: unset;
+    max-width: 250px;
+    box-shadow: 5px 5px 10px #00000050;
+  }
+}
+
+
+@media (min-width: 1024px){
+
+  #home{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+  }
+}
+
+
+
+
+
+
+
+
+
+
