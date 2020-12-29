@@ -37,6 +37,10 @@ media queries
 
 @media (min-width: 760px){
 
+    #about {
+        padding: 5% 0;
+    }
+
     .about-circle{
       height: 3.75rem;
       width: 3.75rem;
@@ -46,5 +50,24 @@ media queries
     .about-cross{
         height: 3.75rem;
         width: 3.75rem;
+    }
+}
+
+@media (min-width: 1024px){
+    #about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        border-bottom: none;
+    }
+
+    .about-text{
+        display: flex;
+    }
+
+    .about-cross {
+        position: absolute;
+        right: 20%;
     }
 }
