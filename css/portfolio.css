@@ -121,6 +121,7 @@ media queries
 
     #portfolio {
         padding: 5% 0;
+        height: 100vh;
     }
 
     .portfolio-header{
@@ -166,5 +167,40 @@ media queries
         margin-left: 2.5%;
         border-radius: 50%;
     }
+}
 
+@media (min-width: 1024px){
+    #portfolio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .portfolio-text{
+        display: flex;
+    }
+
+    .portfolio-text .left-col{
+        min-width: 48%;
+        font-size: 1.55rem;
+    }
+
+    .portfolio-links{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.5rem;
+    }
+
+    .port-link {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 21rem;
+        width: 21rem;
+        border-radius: 10px;
+        letter-spacing: 1px;
+        margin-top: 1.5rem;
+    }
 }

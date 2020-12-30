@@ -4,6 +4,7 @@
     background-size: cover;
     background-position-x: 50%;
     position: relative;
+    border-bottom: none;
   }
 
   .hi{
