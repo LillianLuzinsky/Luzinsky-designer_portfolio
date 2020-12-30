@@ -33,6 +33,7 @@
 
 .contact-text a, .contact-text p{
     color: turquoise;
+    margin: 0;
 }
 
 .contact-text p :hover{

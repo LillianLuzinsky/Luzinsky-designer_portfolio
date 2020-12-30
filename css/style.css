@@ -37,7 +37,7 @@ h1{
 h2{
   font-size: 1.5rem;
   letter-spacing: 1px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 p, .left-col, .right-col{
@@ -90,6 +90,6 @@ media queries
     width: 100%;
     padding: 10% 0;
     margin: 0 auto;
-    border-bottom: 1px solid #858585;
+    /* border-bottom: 1px solid #858585; */
   }
 }
