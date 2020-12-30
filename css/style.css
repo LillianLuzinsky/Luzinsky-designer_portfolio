@@ -57,6 +57,10 @@ media queries
     font-size: 4.7rem;
   }
 
+  h2 {
+    font-size: 2.5rem;
+  }
+
   p, .left-col, .right-col{
     font-size: 1.25rem;
     line-height: 2.5rem;

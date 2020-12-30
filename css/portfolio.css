@@ -52,7 +52,8 @@ download CV button
   }
 
 .download-resume :hover{
-    font-weight: 700;
+    color: rgba(240, 55, 166, 0.5);
+    transition: 250ms;
 }
 
 .download-resume .icon{

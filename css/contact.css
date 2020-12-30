@@ -25,20 +25,32 @@
 }
 
 .contact-text{
+    display: flex;
+    flex-direction: column;
     padding-bottom: 1.5rem;
 }
 
-.contact-text a{
+.contact-text a, .contact-text p{
     color: turquoise;
+}
+
+.contact-text p :hover{
+    color: rgba(64, 224, 208, 0.5);
+    transition: 250ms;
 }
 
 .contact-item{
     margin-bottom: 10%;
 }
 
+.follow-section{
+    display: inline;
+}
+
 .copyright{
     text-align: center;
     color: #858585;
+    font-size: 0.75rem;
 }
 
 /*************
@@ -46,5 +58,7 @@ media queries
 *************/
 
 @media (min-width: 760px){
-    
+    .contact-text a{
+        font-size: 1.5rem;
+    }
 }
