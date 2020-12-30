@@ -90,12 +90,18 @@ navigation buttons
     border-radius: 100px;
     letter-spacing: 1px;
     margin-top: 1.5rem;
+
 }
 
 .port-link i {
     font-size: 40px;
     margin-right: -2px;
     color: turquoise;
+}
+
+.port-link p{
+    font-size: 1rem;
+    margin: 0 auto;
 }
 
 .port-cross, .ui-circle, .port-plus{
