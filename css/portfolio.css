@@ -83,7 +83,7 @@ navigation buttons
     background: black;
     box-shadow: 5px 5px 5px black;
     border: 1px solid #858585;
-    color: turquoise;
+    color: white;
     height: 40px;
     border-radius: 100px;
     letter-spacing: 1px;
@@ -93,6 +93,7 @@ navigation buttons
 .port-link i {
     font-size: 40px;
     margin-right: -2px;
+    color: turquoise;
 }
 
 .port-cross, .ui-circle, .port-plus{
@@ -137,6 +138,7 @@ media queries
 
     .download-resume{
         max-width: 250px;
+        box-shadow: 5px 5px 10px #00000050;
     }
 
     .port-link {
@@ -144,7 +146,7 @@ media queries
         border-radius: 10px;
         letter-spacing: 1px;
         margin-top: 3rem;
-        box-shadow: 5px 5px 10px black;
+        box-shadow: 5px 5px 10px #00000050;
     }
 
     .port-link p{
@@ -212,7 +214,6 @@ media queries
 
     .port-link p{
         margin-left: 0;
-        color: white;
         line-height: 4rem;
     }
 
