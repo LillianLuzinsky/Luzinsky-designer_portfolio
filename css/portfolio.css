@@ -77,16 +77,6 @@ download CV button
 /***********
 navigation buttons
 **************/
-
-.port-cross{
-    fill: none;
-    stroke: #858585;
-    stroke-width: 3px;
-    height: 25px;
-    width: 25px;
-    margin-left: 5px;
-}
-
 .port-link {
     display: flex;
     align-items: center;
@@ -105,4 +95,22 @@ navigation buttons
 .port-link i {
     font-size: 40px;
     margin-right: -2px;
+}
+
+.port-cross, .ui-circle, .port-plus{
+    fill: none;
+    stroke: #858585;
+    stroke-width: 3px;
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.port-cross {
+    transform: rotate(45deg);
+}
+
+.ui-circle {
+    border: 1px solid #858585;
 }
