@@ -123,6 +123,7 @@ media queries
     #portfolio {
         padding: 5% 0;
         height: 100vh;
+        border-bottom: none;
     }
 
     .portfolio-header{
