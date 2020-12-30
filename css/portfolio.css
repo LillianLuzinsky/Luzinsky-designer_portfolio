@@ -169,12 +169,12 @@ media queries
     }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1200px){
     #portfolio{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0;
+        padding: 10%;
     }
 
     .portfolio-text{
@@ -193,14 +193,31 @@ media queries
     }
 
     .port-link {
+        
         display: flex;
         align-items: flex-start;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-direction: column;
-        height: 21rem;
-        width: 21rem;
+        height: 19rem;
+        width: 19rem;
         border-radius: 10px;
         letter-spacing: 1px;
-        margin-top: 1.5rem;
+        padding: 5%;
+
+    }
+
+    .port-cross, .ui-circle, .port-plus{
+        margin-left: 0;
+    }
+
+    .port-link p{
+        margin-left: 0;
+        color: white;
+        line-height: 4rem;
+    }
+
+    .port-link i {
+        margin-left: 80%;
+        font-size: 50px;
     }
 }
