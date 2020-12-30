@@ -1,8 +1,18 @@
 footer{
   background: #F037A5;
   color: black;
+  display: block;
+  z-index: -1;
 }
 
 /*************
 media queries
 *************/
+
+@media (min-width: 760px){
+  footer{
+    height: 50vh;
+    position: fixed;
+    bottom: 0;
+  }
+}
