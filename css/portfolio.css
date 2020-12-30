@@ -1,0 +1,22 @@
+#portfolio{
+    height: 100vh;
+    border-bottom: 1px solid white;
+}
+
+.portfolio-title{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.portfolio-title h1{
+}
+
+.portfolio-plus{
+    margin-left: 20px;
+    height: 2rem;
+    width: 2rem;
+    fill: none;
+    stroke: white;
+    stroke-width: 1.5px;
+}

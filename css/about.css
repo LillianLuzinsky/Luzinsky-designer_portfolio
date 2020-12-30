@@ -58,7 +58,6 @@ media queries
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100vh;
         border-bottom: none;
     }
 
@@ -69,5 +68,11 @@ media queries
     .about-cross {
         position: absolute;
         right: 20%;
+    }
+}
+
+@media (min-width: 1200px){
+    #about{
+        height: 100vh;
     }
 }
