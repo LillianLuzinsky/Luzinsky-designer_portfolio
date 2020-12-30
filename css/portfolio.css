@@ -50,6 +50,7 @@ download CV button
     border-radius: 100px;
     margin-top: 1.5rem;
     font-size: 1.5rem;
+    transition: 250ms;
   }
 
 .download-resume :hover{
@@ -160,12 +161,13 @@ media queries
         letter-spacing: 1px;
         margin-top: 3rem;
         box-shadow: 5px 5px 10px #00000050;
+        transition: 250ms;
     }
 
     .portfolio-links .port-link:hover{
         box-shadow: none;
         background: #111111;
-        transition: 1000ms;
+        transition: 250ms;
     }
 
     .port-link p{

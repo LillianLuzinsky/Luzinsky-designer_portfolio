@@ -58,7 +58,6 @@ media queries
         display: flex;
         align-items: center;
         justify-content: center;
-        border-bottom: none;
     }
 
     .about-text{
@@ -74,6 +73,7 @@ media queries
 @media (min-width: 1200px){
     #about{
         height: 100vh;
+        border-bottom: none;
     }
 
 }

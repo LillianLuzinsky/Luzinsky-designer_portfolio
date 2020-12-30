@@ -111,7 +111,6 @@ media queries
 
     nav .tab-container :hover{
         font-weight: 700;
-        transition: 100ms;
     }
 
     .tab{
