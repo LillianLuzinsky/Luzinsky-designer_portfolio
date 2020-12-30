@@ -49,8 +49,7 @@
     justify-content: center;
     border-radius: 50%;
     background: #F037A5;
-    color: black;
-    
+    color: black;    
 }
 
 .download-resume p{
@@ -58,4 +57,9 @@
       text-align: center;
       margin: 0 auto;
       font-family: century-gothic,sans-serif;
+}
+
+.portfolio-text .left-col{
+    font-weight: 700;
+    letter-spacing: 1px;
 }
