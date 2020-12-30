@@ -34,7 +34,13 @@ h1{
   font-size: 2.19rem;
 }
 
-.left-col, .right-col{
+h2{
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+p, .left-col, .right-col{
   font-family: 'Open Sans', sans-serif;
   font-size: 0.75rem;
   font-weight: 400;

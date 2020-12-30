@@ -28,12 +28,6 @@
     padding-bottom: 1.5rem;
 }
 
-.contact-text h2{
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    margin-bottom: 1rem;
-}
-
 .contact-text a{
     color: turquoise;
 }
@@ -45,4 +39,12 @@
 .copyright{
     text-align: center;
     color: #858585;
+}
+
+/*************
+media queries
+*************/
+
+@media (min-width: 760px){
+    
 }

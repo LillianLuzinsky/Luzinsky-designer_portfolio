@@ -123,7 +123,6 @@ media queries
     #portfolio {
         padding: 5% 0;
         height: 100vh;
-        border-bottom: none;
     }
 
     .portfolio-header{
@@ -178,6 +177,7 @@ media queries
         align-items: center;
         justify-content: center;
         padding: 10%;
+        border-bottom: none;
     }
 
     .portfolio-text{
