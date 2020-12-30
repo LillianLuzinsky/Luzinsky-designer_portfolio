@@ -78,6 +78,11 @@ download CV button
 /***********
 navigation buttons
 **************/
+
+.portfolio-links{
+    padding: 0;
+}
+
 .port-link {
     display: flex;
     align-items: center;
@@ -157,6 +162,12 @@ media queries
         box-shadow: 5px 5px 10px #00000050;
     }
 
+    .portfolio-links .port-link:hover{
+        box-shadow: none;
+        background: #111111;
+        transition: 1000ms;
+    }
+
     .port-link p{
         font-size: 2.5rem;
         margin-right: auto;
@@ -177,6 +188,7 @@ media queries
         margin-left: 2.5%;
         border-radius: 50%;
     }
+
 }
 
 @media (min-width: 1024px){
@@ -190,12 +202,13 @@ media queries
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 10%;
+        padding: 0;
         border-bottom: none;
     }
 
     .portfolio-text{
         display: flex;
+        margin-bottom: 5rem;
     }
 
     .portfolio-text .left-col{
@@ -206,11 +219,9 @@ media queries
     .portfolio-links{
         display: flex;
         justify-content: space-between;
-        margin-top: 1.5rem;
     }
 
     .port-link {
-        
         display: flex;
         align-items: flex-start;
         justify-content: space-evenly;
@@ -220,7 +231,7 @@ media queries
         border-radius: 10px;
         letter-spacing: 1px;
         padding: 5%;
-
+        margin-top: 0;
     }
 
     .port-cross, .ui-circle, .port-plus{
