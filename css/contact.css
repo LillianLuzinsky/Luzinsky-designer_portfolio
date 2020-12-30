@@ -2,6 +2,14 @@
     height: 100vh;
 }
 
+#contact .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+
 .contact-title{
     display: flex;
     align-items: center;
@@ -15,4 +23,22 @@
     stroke: #F037A5;
     stroke-width: 1.5px;
     transform: rotate(45deg);
+}
+
+.contact-item{
+    margin-bottom: 10%;
+}
+
+.contact-text h2{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.contact-text a{
+    color: turquoise;
+}
+
+.copyright{
+    margin: 0 auto;
+    color: #858585;
 }
