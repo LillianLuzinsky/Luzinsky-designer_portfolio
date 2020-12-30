@@ -3,13 +3,15 @@
     border-bottom: 1px solid white;
 }
 
-.portfolio-title{
+.portfolio-header{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding-bottom: 1.5rem;
 }
 
 .portfolio-title h1{
+    letter-spacing: 1px;
 }
 
 .portfolio-plus{
@@ -19,4 +21,41 @@
     fill: none;
     stroke: white;
     stroke-width: 1.5px;
+}
+
+.download-resume{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: black;
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid #F037A5;
+    color: #F037A5;
+    height: 40px;
+    border-radius: 100px;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+.download-resume :hover{
+    font-weight: 700;
+}
+
+.download-resume .icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #F037A5;
+    color: black;
+    
+}
+
+.download-resume p{
+      font-size: 1.5rem;
+      text-align: center;
+      margin: 0 auto;
+      font-family: century-gothic,sans-serif;
 }
