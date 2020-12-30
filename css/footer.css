@@ -3,6 +3,8 @@ footer{
   color: black;
   display: block;
   z-index: -1;
+  width: 100vw;
+  height: auto;
 }
 
 /*************
@@ -14,5 +16,17 @@ media queries
     height: 50vh;
     position: fixed;
     bottom: 0;
+  }
+}
+
+@media (min-width: 1024px){
+  footer{
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px){
+  footer{
+    height: 55vh;
   }
 }

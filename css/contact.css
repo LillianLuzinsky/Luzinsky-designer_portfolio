@@ -60,10 +60,11 @@ media queries
 
 @media (min-width: 760px){
     #contact{
-        height: 100vh;
+        height: auto;
         position: relative;
         background: #222222;
         margin-bottom: 50vh;
+        padding-top: 5%;
     }
 
     .contact-cross{
@@ -83,5 +84,19 @@ media queries
         bottom: 5%;
         left: 50%;
         transform: translateX(-50%);
+    }
+}
+
+@media (min-width: 1024px){
+    #contact{
+        margin-bottom: 65vh;
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 1200px){
+    #contact{
+        margin-bottom: 50vh;
+        padding-top: 0;
     }
 }

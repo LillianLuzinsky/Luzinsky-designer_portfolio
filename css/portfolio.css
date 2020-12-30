@@ -173,6 +173,12 @@ media queries
     }
 }
 
+@media (min-width: 1024px){
+    #portfolio{
+        height: auto;
+    }
+}
+
 @media (min-width: 1200px){
     #portfolio{
         display: flex;
