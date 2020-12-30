@@ -112,10 +112,10 @@ media queries
 
   .home-cross{
     position: absolute;
-    bottom: 150px;
+    right: 5%;
+    bottom: 20%;
     height: 6.25rem;
     width: 6.25rem;
-    mix-blend-mode: multiply;
   }
 
   .contact-button{
@@ -133,7 +133,6 @@ media queries
       align-items: center;
       justify-content: center;
       background-color: white;
-      padding-left: 0;
   }
 
   .sub-heading{
