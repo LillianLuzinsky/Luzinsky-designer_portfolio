@@ -68,13 +68,17 @@ project content
     margin-bottom: 1.5rem;
 }
 
+/*************
+project links
+***************/
+
 .project-link a{
     color: turquoise;
     margin-right: 1.5rem;
-    border: 1px solid turquoise;
     padding: 0 10px;
     border-radius: 100px;
     background: black;
+    border: 1px solid turquoise;
     box-shadow: 5px 5px 5px #00000050;
     transition: 250ms;
     letter-spacing: 1px;
@@ -109,6 +113,20 @@ media queries
         margin-left: 35px;
     }
 
+    .project-text{
+        margin-bottom: 3rem;
+    }
+
+    .project-link a{
+        font-size: 1.5rem;
+        padding: 0 20px;
+        margin-right: 3rem;
+    }
+
+    img {
+        margin-bottom: 1.5rem;
+    }
+
 }
 
 @media (min-width: 1024px){
@@ -119,6 +137,7 @@ media queries
 
     .project-content h2{
         padding-top: 3rem;
+        font-size: 3.5rem;
     }
 
     .project-text{
@@ -135,5 +154,9 @@ media queries
 
     main{
         max-width: 1200px;
+    }
+
+    img {
+        margin-bottom: 3rem;
     }
   }
