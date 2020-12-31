@@ -123,4 +123,25 @@ media queries
   *************/
 
 
+  @keyframes fadeIn {
+    from{
+      opacity: 0;
+    }
+
+    to{
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide {
+    from{
+      transform: translateX(-100vw);
+    }
+
+    to{
+      transform: rotateX(0);
+    }
+  }
+
+
   
