@@ -72,6 +72,7 @@
   }
 
   .contact-button:hover{
+    box-shadow: none;
     background: #555555;
     transition: 250ms;
   }
