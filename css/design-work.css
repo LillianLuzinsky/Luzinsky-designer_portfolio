@@ -50,7 +50,7 @@ project content
 *********/
 
 .project-content {
-    padding-top: 1.5rem;
+    padding: 1.5rem 0;
     border-top: 1px solid white;
 }
 
@@ -97,6 +97,18 @@ img {
     box-shadow: 5px 5px 5px #00000050;
 }
 
+.tictac {
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #858585;
+}
+
+.image-section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /*************
 media queries
 ***************/
@@ -113,6 +125,10 @@ media queries
         margin-left: 35px;
     }
 
+    .project-content {
+        padding: 3rem 0;
+    }
+
     .project-text{
         margin-bottom: 3rem;
     }
@@ -125,6 +141,16 @@ media queries
 
     img {
         margin-bottom: 1.5rem;
+    }
+
+    .tictac{
+        max-width: 30%;
+    }
+
+    .image-section2 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
     }
 
 }
@@ -146,6 +172,10 @@ media queries
 
     .tools{
         min-width: 50%;
+    }
+
+    img {
+        margin-bottom: 3rem;
     }
     
   }
