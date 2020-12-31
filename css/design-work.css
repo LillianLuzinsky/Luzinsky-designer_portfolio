@@ -2,16 +2,17 @@
     height: auto;
 }
 
-.design-content {
-    padding: 1.5rem 5%;
-}
-
 .design-title{
     padding: 75px 5% 1.5rem 5%;
     border-bottom: 1px solid white;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+}
+
+.design-content {
+    padding: 1.5rem 5%;
+    border-bottom: 1px solid white;
 }
 
 /*************
@@ -70,9 +71,26 @@ content
     transition: 250ms;
 }
 
+.description p{
+    margin-bottom: 1.5rem;
+}
+
 img {
     max-width: 100%;
-    margin: 1.5rem 0;
+    margin-bottom: 0.75rem;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #00000050;
 }
+
+/*************
+media queries
+***************/
+
+@media (min-width: 1024px){
+
+    .design-title, .design-content{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 10% 0;
+    }
+  }
