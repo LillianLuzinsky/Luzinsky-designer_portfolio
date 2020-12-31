@@ -49,6 +49,11 @@ p, .left-col, .right-col{
   margin-top: 1.5rem;
 }
 
+a {
+  text-decoration: none;
+}
+
+
 /*************
 media queries
 *************/
