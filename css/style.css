@@ -53,6 +53,12 @@ a {
   text-decoration: none;
 }
 
+.copyright{
+  color: #858585;
+  font-size: 0.75rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
 
 /*************
 media queries
@@ -69,6 +75,14 @@ media queries
   p, .left-col, .right-col{
     font-size: 1.25rem;
     line-height: 2.5rem;
+  }
+
+  .copyright{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
   }
 }
 

@@ -49,11 +49,7 @@
     display: inline;
 }
 
-.copyright{
-    text-align: center;
-    color: #858585;
-    font-size: 0.75rem;
-}
+
 
 /*************
 media queries
@@ -78,14 +74,6 @@ media queries
         font-size: 1.5rem;
     }
 
-    .copyright{
-        position: absolute;
-        color: #858585;
-        font-size: 0.75rem;
-        bottom: 5%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
 }
 
 @media (min-width: 1024px){
