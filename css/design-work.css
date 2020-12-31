@@ -2,7 +2,7 @@
     height: auto;
 }
 
-.design-container {
+.design-content {
     padding: 1.5rem 5%;
 }
 
@@ -41,30 +41,38 @@ title symbols
 }
 
 /****************
-subtitle
+content
 *********/
 
 .design-subtitle{
     color: turquoise;
 }
 
+.tools{
+    margin-bottom: 1.5rem;
+}
+
 .project-link a{
     color: turquoise;
     margin-right: 1.5rem;
     border: 1px solid turquoise;
-    padding: 5px;
+    padding: 0 10px;
     border-radius: 100px;
     background: black;
-    box-shadow: 5px 5px 5px #000000;
+    box-shadow: 5px 5px 5px #00000050;
     transition: 250ms;
-}
-
-.project-link{
-    margin: 5% 0;
+    letter-spacing: 1px;
 }
 
 .project-link :hover{
     background: #111111;
     box-shadow: none;
     transition: 250ms;
+}
+
+img {
+    max-width: 100%;
+    margin: 1.5rem 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #00000050;
 }
