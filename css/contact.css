@@ -61,7 +61,7 @@ media queries
 
 @media (min-width: 760px){
     #contact{
-        height: auto;
+        height: 100vh;
         position: relative;
         background: #222222;
         margin-bottom: 50vh;
@@ -89,15 +89,20 @@ media queries
 }
 
 @media (min-width: 1024px){
+
     #contact{
         margin-bottom: 65vh;
-        padding-top: 0;
+    }
+
+    .contact-item{
+        margin-bottom: 5%;
     }
 }
 
+
 @media (min-width: 1200px){
     #contact{
-        margin-bottom: 50vh;
         padding-top: 0;
+        margin-bottom: 50vh;
     }
 }
