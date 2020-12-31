@@ -1,5 +1,4 @@
 #front-end, #digital-design, #graphic-design {
-    background: blue;
     height: auto;
 }
 
@@ -39,4 +38,33 @@ title symbols
     border: 1px solid white;
     border-radius: 50%;
     margin-top: 2.5%;
+}
+
+/****************
+subtitle
+*********/
+
+.design-subtitle{
+    color: turquoise;
+}
+
+.project-link a{
+    color: turquoise;
+    margin-right: 1.5rem;
+    border: 1px solid turquoise;
+    padding: 5px;
+    border-radius: 100px;
+    background: black;
+    box-shadow: 5px 5px 5px #000000;
+    transition: 250ms;
+}
+
+.project-link{
+    margin: 5% 0;
+}
+
+.project-link :hover{
+    background: #111111;
+    box-shadow: none;
+    transition: 250ms;
 }
