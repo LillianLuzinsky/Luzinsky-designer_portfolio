@@ -41,40 +41,35 @@ download CV button
 .download-resume{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
+    align-items: center;
     background: black;
-    box-shadow: 5px 5px 5px black;
-    border: 1px solid #F037A5;
-    color: #F037A5;
+    box-shadow: 5px 5px 10px #000000;
     height: 40px;
     border-radius: 100px;
+    color: #F037A5;
+    border: #F037A5 solid 1px;
     margin-top: 1.5rem;
-    font-size: 1.5rem;
     transition: 250ms;
   }
 
-.download-resume :hover{
-    color: rgba(240, 55, 166, 0.5);
+  .download-resume:hover{
+    box-shadow: none;
+    background: #111111;
     transition: 250ms;
-}
+  }
 
-.download-resume .icon{
-    height: 40px;
-    width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background: #F037A5;
-    color: black;    
-}
+  .download-resume i{
+      font-size: 40px;
+      margin: -1px;
+  }
 
-.download-resume p{
-      font-size: 1.5rem;
-      text-align: center;
+  .download-resume p{
       margin: 0 auto;
+      font-size: 1.5rem;
       font-family: century-gothic,sans-serif;
-}
+  }
 
 /***********
 navigation buttons
