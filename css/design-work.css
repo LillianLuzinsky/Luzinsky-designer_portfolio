@@ -145,6 +145,11 @@ media queries
 
     .tictac{
         max-width: 30%;
+        padding: 0;
+    }
+
+    .tictac img{
+        margin-bottom: 0;
     }
 
     .image-section2 {

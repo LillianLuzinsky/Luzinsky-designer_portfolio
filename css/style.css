@@ -53,7 +53,7 @@ a {
   text-decoration: none;
 }
 
-.copyright{
+.copyright, .copyright2{
   color: #858585;
   font-size: 0.75rem;
   text-align: center;
@@ -84,6 +84,11 @@ media queries
     left: 50%;
     transform: translate(-50%);
   }
+
+  .copyright2{
+    font-size: 1rem;
+  }
+
 }
 
 @media (min-width: 1024px){
