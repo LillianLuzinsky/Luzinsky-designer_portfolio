@@ -68,11 +68,12 @@
     height: 40px;
     border-radius: 100px;
     color: white;
+    transition: 250ms;
   }
 
   .contact-button:hover{
     background: #555555;
-    transition: background 500ms linear;
+    transition: 250ms;
   }
 
   .contact-button i{
