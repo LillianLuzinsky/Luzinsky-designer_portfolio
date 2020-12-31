@@ -117,3 +117,29 @@ media queries
     /* border-bottom: 1px solid #858585; */
   }
 }
+
+/*********
+  smooth transition animation
+  *************/
+
+  @keyframes slide-right {
+    from{
+      transform: translateX(-100vw);
+    }
+    to{
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slide-left {
+    from{
+      transform: translateX(100vw);
+      opacity: 0;
+    }
+    to{
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  

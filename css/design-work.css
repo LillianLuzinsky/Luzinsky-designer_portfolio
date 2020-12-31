@@ -30,7 +30,18 @@ heading
 
 #front-end, #digital-design, #graphic-design {
     height: auto;
+    animation: fade 1000ms;
 }
+
+@keyframes fade {
+    from{
+      opacity: 0;
+    }
+
+    from{
+      opacity: 1;
+    }
+  }
 
 main {
     max-width: 90%;

@@ -1,3 +1,7 @@
+#home{
+  animation: slide-right 1000ms;
+}
+
 #home .container{
     height: auto;
     background: url("/images/Homepage.jpg") center no-repeat;
