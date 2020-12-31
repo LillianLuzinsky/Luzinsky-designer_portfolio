@@ -102,6 +102,7 @@ navigation buttons
 .port-link p{
     font-size: 1rem;
     margin: 0 auto;
+    font-family: century-gothic,sans-serif;
 }
 
 .port-cross, .ui-circle, .port-plus{
