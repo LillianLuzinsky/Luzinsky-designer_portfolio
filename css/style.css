@@ -28,6 +28,7 @@ section{
 .container{
   padding: 75px 5%;
   margin: auto 0;
+  animation: fadeIn 1000ms;
 }
 
 h1{
@@ -116,7 +117,6 @@ media queries
     width: 100%;
     padding: 7.5% 0;
     margin: 0 auto;
-    animation: fadeIn 2500ms;
   }
 }
 
