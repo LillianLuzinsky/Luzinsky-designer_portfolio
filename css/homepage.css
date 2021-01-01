@@ -5,6 +5,7 @@
 #home .container{
     height: auto;
     background: url("/images/Homepage.jpg") center no-repeat;
+    background-color: #F037A5;
     background-size: cover;
     background-position-x: 50%;
     position: relative;
