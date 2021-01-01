@@ -139,6 +139,11 @@ media queries
       display: flex;
       align-items: center;
       justify-content: center;
+      padding-top: 0;
+  }
+
+  #home .container{
+    padding-top: 7.5%;
   }
 
   .sub-heading{
