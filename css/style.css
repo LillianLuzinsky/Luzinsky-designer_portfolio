@@ -32,16 +32,17 @@ section{
 
 h1{
   font-size: 2.19rem;
+  font-family: century-gothic,sans-serif;
 }
 
 h2{
   font-size: 1.5rem;
   letter-spacing: 1px;
   margin-bottom: 0.5rem;
+  font-family: century-gothic,sans-serif;
 }
 
 p, .left-col, .right-col{
-  font-family: 'Open Sans', sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
   letter-spacing: 1px;
@@ -51,6 +52,7 @@ p, .left-col, .right-col{
 
 a {
   text-decoration: none;
+  font-family: century-gothic,sans-serif;
 }
 
 .copyright, .copyright2{

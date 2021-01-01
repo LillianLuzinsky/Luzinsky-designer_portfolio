@@ -73,8 +73,8 @@ media queries
 
 @media (min-width: 1200px){
     #about{
-        height: 100vh;
         border-bottom: none;
+        padding: 0;
     }
 
 }
