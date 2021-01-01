@@ -8,17 +8,17 @@ title symbols
     margin-top: 2.5%;
 }
 
-.front-end-cross, .graphic-plus{
+.design-cross, .design-plus{
     fill: none;
     stroke: white;
     stroke-width: 2px;
 }
 
-.front-end-cross{
+.design-cross{
     transform: rotate(45deg);
 }
 
-.digital-circle{
+.design-circle{
     background: none;
     border: 1px solid white;
     border-radius: 50%;
@@ -28,7 +28,7 @@ title symbols
 heading
 *************/
 
-#front-end, #digital-design, #graphic-design {
+.design-page {
     height: auto;
     animation: fadeIn 2500ms;
 }
@@ -91,7 +91,7 @@ project links
     transition: 250ms;
 }
 
-img {
+img, iframe {
     max-width: 100%;
     margin-bottom: 0.75rem;
     border-radius: 5px;
@@ -110,13 +110,32 @@ img {
     align-items: center;
 }
 
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+
+/********
+video
+**********/
+
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
 /*************
 media queries
 ***************/
 
 @media (min-width: 760px){
 
-    #front-end, #digital-design, #graphic-design {
+    .design-page {
         padding: 10% 0;
     }
 
@@ -159,7 +178,6 @@ media queries
         justify-content: space-between;
         flex-direction: row;
     }
-
 }
 
 @media (min-width: 1024px){
@@ -179,6 +197,7 @@ media queries
 
     .tools{
         min-width: 50%;
+        padding-right: 1rem;
     }
 
     img {

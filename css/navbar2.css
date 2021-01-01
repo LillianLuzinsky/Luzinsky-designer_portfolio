@@ -57,7 +57,7 @@ nav{
 
 .tab.active {
     border: white 1px solid;
-    transition: 2000ms border linear;   
+    transition: 1000ms border linear;
 }
 
 .tab.active p{
