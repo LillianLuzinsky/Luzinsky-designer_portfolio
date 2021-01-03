@@ -102,10 +102,12 @@ media queries
   }
 
   .left-col{
+    max-width: 48%;
     margin-right: 2%;
   }
 
   .right-col{
+    max-width: 48%;
     padding-left: 2%;
   }
 
