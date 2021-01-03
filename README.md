@@ -6,4 +6,4 @@
 
 updating current website:
 
-https://lillianluzinsky.github.io/designer-portfolio/
+https://lillian-luzinsky.com/
