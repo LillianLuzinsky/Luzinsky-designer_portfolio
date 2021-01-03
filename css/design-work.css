@@ -96,6 +96,11 @@ img, iframe {
     margin-bottom: 0.75rem;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #00000050;
+    border: 1px solid #858585;
+}
+
+iframe {
+    border: none;
 }
 
 .iframe-container{
@@ -115,7 +120,6 @@ img, iframe {
 .tictac {
     width: 80%;
     border-radius: 10px;
-    border: 1px solid #858585;
 }
 
 .image-section2 {
