@@ -193,6 +193,11 @@ media queries
         flex-direction: row;
     }
 
+    .portrait img{
+        max-width: 100%;
+        height: auto;
+    }
+
 }
 
 @media (min-width: 1024px){
