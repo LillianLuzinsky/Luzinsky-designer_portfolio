@@ -217,6 +217,16 @@ media queries
     img {
         margin-bottom: 3rem;
     }
+
+    .portrait img{
+        max-width: 48%;
+    }
+    
+    .row{
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+    }
     
   }
 
@@ -226,7 +236,4 @@ media queries
         max-width: 1200px;
     }
 
-    img {
-        margin-bottom: 3rem;
-    }
   }
