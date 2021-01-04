@@ -221,6 +221,7 @@ media queries
     .portrait img{
         max-width: 48%;
         height: auto;
+        max-height: 650px;
     }
     
     .row{
