@@ -192,6 +192,11 @@ media queries
         justify-content: space-between;
         flex-direction: row;
     }
+
+    .portrait img{
+        max-width: 48%;
+        max-height: 650px;
+    }
 }
 
 @media (min-width: 1024px){
@@ -219,7 +224,6 @@ media queries
     }
 
     .portrait img{
-        max-width: 48%;
         height: auto;
     }
     
