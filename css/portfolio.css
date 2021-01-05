@@ -192,6 +192,10 @@ media queries
     #portfolio{
         height: auto;
     }
+
+    .portfolio-text .right-col{
+        max-width: 100%;
+    }
 }
 
 @media (min-width: 1200px){
