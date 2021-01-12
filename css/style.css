@@ -51,7 +51,7 @@ a {
   text-decoration: none;
   font-family: century-gothic,sans-serif;
   color: turquoise;
-  transition: 500ms;
+  transition: 250ms;
 }
 
 #about p :hover, .contact-text p :hover, .description p :hover{
