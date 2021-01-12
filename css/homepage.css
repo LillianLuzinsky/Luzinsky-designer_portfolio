@@ -90,16 +90,6 @@
       margin: 0 auto;
   }
 
-  #about a{
-    text-decoration: none;
-    color: turquoise;
-  }
-
-  #about p :hover{
-    color: rgba(64, 224, 208, 0.5);
-    transition: 250ms;
-}
-
 /*************
 media queries
 *************/

@@ -50,6 +50,13 @@ p, .left-col, .right-col{
 a {
   text-decoration: none;
   font-family: century-gothic,sans-serif;
+  color: turquoise;
+  transition: 500ms;
+}
+
+#about p :hover, .contact-text p :hover, .description p :hover{
+  color: #F037A5;
+  transition: 500ms;
 }
 
 .copyright, .copyright2{

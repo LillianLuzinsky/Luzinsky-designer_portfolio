@@ -32,7 +32,7 @@
     padding-bottom: 1.5rem;
 }
 
-.contact-text a, .contact-text p{
+/* .contact-text a, .contact-text p{
     color: turquoise;
     margin: 0;
 }
@@ -40,7 +40,7 @@
 .contact-text p :hover{
     color: rgba(64, 224, 208, 0.5);
     transition: 250ms;
-}
+} */
 
 .contact-item{
     margin-bottom: 10%;
