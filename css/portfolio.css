@@ -185,13 +185,16 @@ media queries
         margin-left: 2.5%;
         border-radius: 50%;
     }
-
 }
 
-@media (min-width: 1024px){
+@media (min-width: 800px){
+
     #portfolio{
         height: auto;
     }
+}
+
+@media (min-width: 1024px){
 
     .portfolio-text .right-col{
         max-width: 100%;

@@ -131,6 +131,12 @@ media queries
   }
 }
 
+@media (min-width: 800px){
+
+  #home .container{
+      height: auto;
+  }
+}
 
 @media (min-width: 1024px){
 
@@ -142,6 +148,7 @@ media queries
   }
 
   #home .container{
+    height: 100vh;
     padding-top: 7.5%;
   }
 

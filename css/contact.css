@@ -62,8 +62,16 @@ media queries
     .contact-text a{
         font-size: 1.5rem;
     }
-
 }
+
+@media (min-width: 800px){
+
+    #contact{
+        height: auto;
+        margin-bottom: 0;
+    }
+}
+
 
 @media (min-width: 1024px){
 
