@@ -53,6 +53,7 @@ nav{
     font-weight: 400;
     color: white;
     font-family: century-gothic,sans-serif;
+    line-height: 1.5rem;
 }
 
 .tab.active {

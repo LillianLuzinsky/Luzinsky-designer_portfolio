@@ -48,6 +48,7 @@ nav{
     max-width: 0;
     color: white;
     font-family: century-gothic,sans-serif;
+    line-height: 1rem;
 }
 
 .tab.active {

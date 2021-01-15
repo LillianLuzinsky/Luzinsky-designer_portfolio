@@ -1,6 +1,6 @@
 #home {
   background: white;
-  animation: slide 1000ms;
+  animation: slide 500ms;
 }
 
 #home .container{
