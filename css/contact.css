@@ -1,7 +1,7 @@
 #contact{
     height: auto;
     background: #222222;
-    animation: slide 1000ms;
+    animation: slide 500ms;
 }
 
 #contact .container{
