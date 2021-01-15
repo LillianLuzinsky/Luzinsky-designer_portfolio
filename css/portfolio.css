@@ -2,7 +2,7 @@
     height: auto;
     background: #222222;
     border-bottom: 1px solid white;
-    animation: slide 1000ms;
+    animation: slide 500ms;
 }
 
 .portfolio-header{
