@@ -49,7 +49,11 @@
   .sub-heading{
     margin: 2rem 0;
     color: black;
-    max-width: 45%;
+    max-width: 48%;
+  }
+
+  .sub-heading p{
+    letter-spacing: 0;
   }
 
   .home-cross{
