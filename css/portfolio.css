@@ -163,6 +163,8 @@ media queries
         box-shadow: none;
         background: #111111;
         transition: 250ms;
+        transition-delay: 100ms;
+        transform: translate(0, -5px);
     }
 
     .port-link p{
